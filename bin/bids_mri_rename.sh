@@ -30,7 +30,7 @@ in_paths[table]="$(get_bids_dir ${study})/derivatives/bids_mri_tables_software-d
 
 declare -A out_paths
 out_paths[bids_dir]="$(get_bids_dir ${study})"
-out_paths[bids_spec]="$(get_bids_dir ${study})/sub-${sub}"
+out_paths[bids_spec]="$(get_bids_dir ${study})/sub-${sub}/ses-0${ses}"
 
 # ------------------------------------------------------------------------------
 # check paths
